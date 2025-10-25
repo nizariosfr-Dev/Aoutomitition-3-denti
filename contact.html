@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Dr. Anouar Sekkak</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Contact</h1>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+      <nav id="primary-navigation" class="nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">Le Cabinet</a>
+        <a href="services.html">Services</a>
+        <a href="rdv.html" class="btn primary">Prendre Rendez‑vous</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact & Urgences</h2>
+    <p>Pour toute question ou urgence, utilisez le formulaire ci‑dessous ou appelez le <strong>0609-013773</strong>.</p>
+
+    <form action="#" method="post" class="contact-form">
+      <label>Nom (obligatoire)<input type="text" name="nom" required></label>
+      <label>Email (obligatoire)<input type="email" name="email" required></label>
+      <label>Téléphone (obligatoire)<input type="tel" name="telephone" required></label>
+      <label>Objet
+        <select name="objet">
+          <option>Rendez‑vous</option>
+          <option>Question administrative</option>
+          <option>Urgence</option>
+          <option>Autre</option>
+        </select>
+      </label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <label class="checkbox"><input type="checkbox" name="consent" required> J'accepte que mes données soient conservées pour répondre à ma demande.</label>
+      <button type="submit" class="btn primary">Envoyer</button>
+    </form>
+
+    <h3>Procédure urgence</h3>
+    <p>En cas d'urgence (douleur aiguë, traumatisme) : appelez le <a href="tel:+212609013773">0609-013773</a>. Si hors heures, laissez un message détaillé.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Dr. Anouar Sekkak — 218 Ave Mohamed Ben Abdellah, Rabat</p>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>
